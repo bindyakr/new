@@ -1,0 +1,44 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="l1.css">
+        <title>
+            Sign-in Form
+        </title>
+    </head>
+
+<body>
+<form action="" method="POST" id="signin">
+    <div class="container">
+    <h1>Sign-in here!</h1>
+      <label<b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" id="emailtxt" required></br>
+  
+      <label<b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="pswtxt" required>
+  
+     
+      <button type="submit" class="btn">Login</button></br>
+      <p>Don't have an account? <a href="/c:/Users/Admin/Desktop/CLASS/New folder/reg.html">Sign up</a></p>
+      <p> <a href="/c:/Users/Admin/Desktop/CLASS/New folder/p.html">Home</a></p></p>
+  
+  </div>
+</form>     
+  
+
+    <script>
+      var form=document.getElementById('signin')
+      form.addEventListener('submit',function(event){
+
+        event.preventDefault();
+
+        console.log('You are logged in!')
+        
+        var usermail=document.getElementById('emailtxt').value
+        console.log(usermail)
+        var password=document.getElementById('pswtxt').value
+        console.log(password)
+      })
+    </script>
+ </body>
+  </html>

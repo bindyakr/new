@@ -1,0 +1,48 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="reg.css">
+        <title>
+            Sign-up Form
+        </title>
+    </head>
+
+<body>
+<form action="" method="POST" id="signup">
+    <div class="container">
+     <h1>Register here!</h1>
+     
+      <label<b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" id="nametxt" required>
+    </br>
+      <label<b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" id="emailtxt" required>
+    </br>
+      <label<b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="pswtxt" required></br>
+    <div id="c"> 
+     <input type="checkbox" name="checkbox" id="checkbox" required> By creating an account you agree to our terms and conditions.
+      
+      <button type="submit" class="btn">Register</button>
+    </div>
+  
+    <div class="signin">
+      <p>Already have an account? <a href="/c:/Users/Admin/Desktop/CLASS/New folder/l1.html">Sign in</a></p>
+    </div>
+    <p> <a href="/c:/Users/Admin/Desktop/CLASS/New folder/p.html">Home</a></p></p>
+  
+</form>
+<script>
+  var form=document.getElementById('signup')
+  form.addEventListener('submit',function(event){
+
+    event.preventDefault();
+
+    console.log('Thanks for registering!')
+    
+    var username=document.getElementById('nametxt').value
+    console.log(username)
+  })
+</script>
+</body>
+</html>

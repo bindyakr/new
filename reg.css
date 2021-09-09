@@ -1,0 +1,70 @@
+body {
+    background: rgb(193, 230, 172);
+    width: 360px;
+    padding: 50;
+    margin: auto;
+  }
+  .container{
+    font-family: 'Roboto Condensed';
+    
+    background: rgb(221, 240, 206);
+    width: 100%;
+   
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .btn {
+  margin-left: 60;
+  margin-top: 20;
+    border: 1px #ccc solid;
+    display: block;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 500ms ease;
+  }
+  .btn:hover {
+    background: rgb(174, 230, 172);
+  }
+  a{
+    color:#2fb8ce;
+    text-decoration: none;
+  }
+  a:hover{
+   color: black;
+   font-weight: bold;  
+  }
+  a:active
+  {
+    background-color:rgb(174, 230, 172);
+    font-style: bold;
+  }
+  input[type=text]{
+    
+    margin-bottom: 20;
+    margin-left: 30;
+  }
+    input[type=email]
+    {
+      width:auto;
+      padding:auto;
+      margin-left: 30 ;
+      
+    }
+    
+  input[type=password]{
+    margin-top:20;
+    width:auto;
+    padding:auto;
+    margin-left: 10 ;
+    
+  
+   
+  }
+  
+  #c{
+      padding-top: 10;
+  }
+
+  }
